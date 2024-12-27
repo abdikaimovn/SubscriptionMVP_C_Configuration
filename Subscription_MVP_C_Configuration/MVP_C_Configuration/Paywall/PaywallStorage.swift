@@ -23,7 +23,7 @@ extension PaywallStorageImpl: PaywallStorage {
 // MARK: - Mock
 extension PaywallStorageImpl {
     func loadData() {
-        let data: [PaywallCard] = [
+        data = [
             // Standart Subscription
             PaywallCard(
                 title: "Standart",
@@ -42,12 +42,10 @@ extension PaywallStorageImpl {
                     )
                 ],
                 promotion: Promotion(promotionPercentage: 10),
-                subscriptionImageName: "standart",
+                subscriptionImageName: "mic.square.fill",
                 subscriptionConditions: SubscriptionConditions(
                     availableFeatures: [
                         "Basic audio-to-text transcription",
-                        "Support for short audio files (up to 5 minutes)",
-                        "Manual punctuation adjustment"
                     ],
                     unavailableFeatures: [
                         "Real-time transcription",
@@ -75,16 +73,14 @@ extension PaywallStorageImpl {
                     )
                 ],
                 promotion: Promotion(promotionPercentage: 20),
-                subscriptionImageName: "premium",
+                subscriptionImageName: "text.word.spacing",
                 subscriptionConditions: SubscriptionConditions(
                     availableFeatures: [
                         "Enhanced audio-to-text transcription with improved accuracy",
-                        "Support for longer audio files (up to 1 hour)",
                         "Multiple language support",
                         "Basic real-time transcription feature"
                     ],
                     unavailableFeatures: [
-                        "Access to domain-specific vocabulary packages",
                         "Priority transcription speed for large files"
                     ]
                 )
@@ -108,16 +104,15 @@ extension PaywallStorageImpl {
                     )
                 ],
                 promotion: Promotion(promotionPercentage: 30),
-                subscriptionImageName: "vip",
+                subscriptionImageName: "flame.fill",
                 subscriptionConditions: SubscriptionConditions(
                     availableFeatures: [
                         "Access to all audio-to-text features",
                         "Unlimited file length for transcription",
                         "Real-time transcription with advanced accuracy",
-                        "Domain-specific vocabulary packages",
                         "Custom punctuation and formatting options"
                     ],
-                    unavailableFeatures: nil
+                    unavailableFeatures: []
                 )
             )
         ]
