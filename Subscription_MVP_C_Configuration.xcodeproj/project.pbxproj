@@ -65,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F098BB32D21506700F14EF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F83B05D2D1EE206009B1F56 /* NSObject+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6F83B00F2D1E87D0009B1F56 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				6F83B02F2D1E89A7009B1F56 /* Application */,
-				6F83B0322D1E8DB2009B1F56 /* MVP_C_Paywall */,
-				6F83B0402D1E9CBD009B1F56 /* MVP_C_Domain */,
-				6F83B03F2D1E9CA6009B1F56 /* MVP_C_Configuration */,
+				6F83B05C2D1EE1EC009B1F56 /* Utilities */,
+				6F83B0322D1E8DB2009B1F56 /* Paywall */,
+				6F83B0402D1E9CBD009B1F56 /* Domain */,
+				6F83B03F2D1E9CA6009B1F56 /* Configuration */,
 			);
 			path = Subscription_MVP_C_Configuration;
 			sourceTree = "<group>";
@@ -113,17 +122,16 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		6F83B0322D1E8DB2009B1F56 /* MVP_C_Paywall */ = {
+		6F83B0322D1E8DB2009B1F56 /* Paywall */ = {
 			isa = PBXGroup;
 			children = (
-				6F83B05C2D1EE1EC009B1F56 /* Extensions */,
 				6F83B0342D1E8DCE009B1F56 /* Dependency */,
 				6F83B0332D1E8DC3009B1F56 /* Factory */,
 				6F83B0362D1E8E94009B1F56 /* Model */,
 				6F83B0382D1E8E9E009B1F56 /* View */,
 				6F83B0372D1E8E98009B1F56 /* Presenter */,
 			);
-			path = MVP_C_Paywall;
+			path = Paywall;
 			sourceTree = "<group>";
 		};
 		6F83B0332D1E8DC3009B1F56 /* Factory */ = {
@@ -169,20 +177,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		6F83B03F2D1E9CA6009B1F56 /* MVP_C_Configuration */ = {
+		6F83B03F2D1E9CA6009B1F56 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				6F83B04C2D1EAED7009B1F56 /* Paywall */,
 			);
-			path = MVP_C_Configuration;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
-		6F83B0402D1E9CBD009B1F56 /* MVP_C_Domain */ = {
+		6F83B0402D1E9CBD009B1F56 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
 				6F83B0412D1E9CEB009B1F56 /* Paywall */,
 			);
-			path = MVP_C_Domain;
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		6F83B0412D1E9CEB009B1F56 /* Paywall */ = {
@@ -228,12 +236,12 @@
 			path = Paywall;
 			sourceTree = "<group>";
 		};
-		6F83B05C2D1EE1EC009B1F56 /* Extensions */ = {
+		6F83B05C2D1EE1EC009B1F56 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				6F83B05D2D1EE206009B1F56 /* NSObject+Extension.swift */,
+				6F098BB32D21506700F14EF1 /* Extensions */,
 			);
-			path = Extensions;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
