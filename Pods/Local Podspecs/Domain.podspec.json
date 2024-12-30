@@ -1,0 +1,23 @@
+{
+  "name": "Domain",
+  "version": "0.1.0",
+  "summary": "Domain framework for SubscriptionApp",
+  "description": "Defines the core domain models and entities used throughout the SubscriptionApp. This framework provides the data structures for the application.",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Your Name": "your.email@example.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Domain/**/*.swift",
+  "source": {
+    "git": "https://example.com",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

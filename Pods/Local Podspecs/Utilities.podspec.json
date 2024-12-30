@@ -1,0 +1,23 @@
+{
+  "name": "Utilities",
+  "version": "0.1.0",
+  "summary": "Utility functions and extensions for SubscriptionApp",
+  "description": "Provides various utility functions and extensions used throughout the SubscriptionApp, such as date formatting, string manipulation, and other common tasks.",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Your Name": "your.email@example.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Utilities/**/*.swift",
+  "source": {
+    "git": "https://example.com",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

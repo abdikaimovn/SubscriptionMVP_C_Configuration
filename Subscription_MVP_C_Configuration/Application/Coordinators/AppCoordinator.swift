@@ -7,6 +7,9 @@
 
 import Foundation
 import UIKit
+import Domain
+import Configuration
+import Paywall
 
 protocol Coordinator {
     func start()

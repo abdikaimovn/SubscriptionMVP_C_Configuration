@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import Configuration
+import Domain
+import Paywall
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

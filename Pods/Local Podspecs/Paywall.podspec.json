@@ -1,0 +1,37 @@
+{
+  "name": "Paywall",
+  "version": "0.1.0",
+  "summary": "Paywall framework for SubscriptionApp",
+  "description": "Implements the paywall UI and logic for the SubscriptionApp. This framework handles user subscriptions and access control.",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Your Name": "your.email@example.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Paywall/**/*.swift",
+  "source": {
+    "git": "https://example.com",
+    "tag": "0.1.0"
+  },
+  "dependencies": {
+    "Domain": [
+
+    ],
+    "Configuration": [
+
+    ],
+    "Utilities": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

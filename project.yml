@@ -1,0 +1,43 @@
+name: SubscriptionApp
+options:
+  bundleIdPrefix: com.nurekyau
+  xcodeVersion: 15.0
+  minimumXcodeGenVersion: 2.42
+  deploymentTarget:
+    iOS: "15.0"
+  groupOrdering:
+    - order: [SubscriptionApp]
+    - pattern: 'SubscriptionApp'
+  generateEmptyDirectories: true
+  postGenCommand: pod install
+
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    CURRENT_PROJECT_VERSION: 1.0
+    MARKETING_VERSION: 1.0
+    TARGETED_DEVICE_FAMILY: 1
+
+configs:
+  Debug: debug
+  Release: release
+
+targets:
+  SubscriptionApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: Subscription_MVP_C_Configuration/Application
+    info:
+      path: Subscription_MVP_C_Configuration/Application/Resources/Info.plist
+      properties:
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleExecutable: "$(EXECUTABLE_NAME)"
+        UILaunchStoryboardName: LaunchScreen
+        UIApplicationSceneManifest:
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+                UISceneInitialIsFullScreen: true

@@ -1,0 +1,43 @@
+PODS:
+  - Configuration (0.1.0):
+    - Domain
+  - Domain (0.1.0)
+  - Paywall (0.1.0):
+    - Configuration
+    - Domain
+    - SnapKit
+    - Utilities
+  - SnapKit (5.7.1)
+  - Utilities (0.1.0)
+
+DEPENDENCIES:
+  - Configuration (from `Modules/Configuration`)
+  - Domain (from `Modules/Domain`)
+  - Paywall (from `Modules/Paywall`)
+  - SnapKit
+  - Utilities (from `Modules/Utilities`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Configuration:
+    :path: Modules/Configuration
+  Domain:
+    :path: Modules/Domain
+  Paywall:
+    :path: Modules/Paywall
+  Utilities:
+    :path: Modules/Utilities
+
+SPEC CHECKSUMS:
+  Configuration: b71202843bd04cb2254fc36ac1b6a60386ad5d40
+  Domain: 09fefdcb2b293e41873196fac61185bbcdf40140
+  Paywall: 5ef9a2e3e3948d74f402c13cec7e8fb858466de5
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  Utilities: c7198192403da7591b8a8595fd4237eff2b9db98
+
+PODFILE CHECKSUM: 0f2167d8b66d04b52e811d4cfd10e60af92dd408
+
+COCOAPODS: 1.15.2

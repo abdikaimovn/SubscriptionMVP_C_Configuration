@@ -1,0 +1,28 @@
+{
+  "name": "Configuration",
+  "version": "0.1.0",
+  "summary": "Configuration framework for SubscriptionApp",
+  "description": "Provides configuration settings and utilities for the SubscriptionApp. This framework handles various aspects of application configuration.",
+  "homepage": "https://example.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Your Name": "your.email@example.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Configuration/**/*.swift",
+  "source": {
+    "git": "https://example.com",
+    "tag": "0.1.0"
+  },
+  "dependencies": {
+    "Domain": [
+
+    ]
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}
