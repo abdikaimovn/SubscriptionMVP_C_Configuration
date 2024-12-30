@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SubscriptionApp/Pods-SubscriptionApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Configuration/Configuration.framework
+${BUILT_PRODUCTS_DIR}/Domain/Domain.framework
+${BUILT_PRODUCTS_DIR}/Paywall/Paywall.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Utilities/Utilities.framework
